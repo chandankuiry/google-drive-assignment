@@ -31,27 +31,36 @@ The server will run on http://localhost:3000. Make sure to configure your Google
 ## APIs
 1. **List Files:**
 
-Endpoint: /files
-Method: GET
-Description: Lists files available in the connected Google Drive.
+### Endpoint:
+/files
+### Method:
+GET
+### Description:
+Lists files available in the connected Google Drive.
 
 
 2. **Download File**
 
-Endpoint: /download/:fileId
-Method: GET
-Description: Downloads a specific file from Google Drive.
-Parameters:
+### Endpoint:
+/download/:fileId
+### Method:
+GET
+### Description:
+Downloads a specific file from Google Drive.
+### Parameters:
 fileId (required): The ID of the file to be downloaded.
 
 
 
 3. **List File Users**
 
-Endpoint: /fileUsers/:fileId
-Method: GET
-Description: Lists all users with access to a specific file.
-Parameters:
+### Endpoint:
+   /fileUsers/:fileId
+### Method:
+GET
+### Description:
+Lists all users with access to a specific file.
+### Parameters:
 fileId (required): The ID of the file.
 
 
