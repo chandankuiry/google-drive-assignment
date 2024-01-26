@@ -1,0 +1,22 @@
+{
+  "name": "googledrive-assignment",
+  "version": "1.0.0",
+  "description": "google drive apis",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm run unittest",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "googledrive",
+    "drive"
+  ],
+  "author": "chandan kuiry",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "googleapis": "^131.0.0",
+    "http": "0.0.1-security",
+    "socket.io": "^4.7.4"
+  }
+}
