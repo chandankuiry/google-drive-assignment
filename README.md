@@ -15,7 +15,6 @@ Before running the project, make sure you have the following:
 
 ## Package Installation
 Install the required npm packages by running the following command:
-
 ```bash
 npm install
 
