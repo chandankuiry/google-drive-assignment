@@ -16,13 +16,15 @@ Before running the project, make sure you have the following:
 ## Package Installation
 Install the required npm packages by running the following command:
 ```bash
-npm install
+    npm install
+```
 
-## Run project 
-    Start the server by running:
+## Run project
+Start the server by running:
 
 ```bash
 npm start
+```
 
 The server will run on http://localhost:3000. Make sure to configure your Google API credentials as mentioned in the Prerequisites section.
 
